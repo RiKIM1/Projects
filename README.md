@@ -42,37 +42,8 @@ Skills demonstrated:
 
     Scenario and sensitivity analysis
 
-3. BCG Data Science & Analytics Simulation (Coming Soon)
 
-Analysed multi‑channel customer data to identify churn drivers and developed structured strategic recommendations.
 
-Skills demonstrated:
-
-    Data analysis
-
-    Pattern identification
-
-    Strategic recommendation development
-
-4. Power BI Dashboards (Coming Soon)
-
-Dashboards built to support financial reporting, KPI tracking, and commercial analysis.
-
-Skills demonstrated:
-
-    Data visualisation
-
-    Dashboard design
-
-    KPI tracking
-
-5. SQL Projects (Coming Soon)
-
-Data querying and analysis projects using PostgreSQL.
-
-Skills demonstrated:
-
-    SQL query writing
 
     Data extraction and manipulation
 
