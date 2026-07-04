@@ -1,6 +1,5 @@
 Welcome to my project repository. I am a recent graduate from the University of Nottingham with strong analytical, financial modelling, and data analysis skills. This repository contains a collection of projects I have built as part of my self‑directed study, virtual job simulations, and independent research.
 
-I am currently seeking roles in FP&A, commercial finance, and manufacturing finance, where I can apply my analytical toolkit and passion for data‑driven decision‑making.
 
 📁 Project Directory
 1. Tesla 3-Statement Financial Model
