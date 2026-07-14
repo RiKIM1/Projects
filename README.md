@@ -10,13 +10,15 @@ Built a full 3-statement financial model (Income Statement, Cash Flow  Statement
 
 Methodology follows Paul Pignataro's Financial Modeling & Valuation (Wiley Finance).
 
-Key features:
+##Key features:
 - Revenue breakdown by segment (Automotive, Energy Generation, Services)
 - EBITDA/EBIT/EBT margin analysis
 - Working capital and CAPEX modeling
 - Forward projections using historical averages, analyst consensus, and key assumptions supported by institution reports (like JPMorgan) and professional investors who are closely monitoring Tesla. 
 
-# 2. SQL-based FP&A Budget vs. Actual – Data Validation (Phase 1-2)
+# 2. SQL-based FP&A Budget vs. Actual 
+
+## Phase 1 and 2: Data Validation
 
 📌 Project Overview
 These are the first and second phases of a financial planning and analysis (FP&A) project designed to showcase data validation, SQL proficiency, and business acumen. 
@@ -25,30 +27,34 @@ The objective of these two phases was to **inspect, validate, and profile** the 
 
 Dataset: 'BudgetAnalyzerSet' (100 records, 5 departments), source: HuggingFace.
 
-## Validation Checks Performed
+### Validation Checks Performed
 - **Null Values** – Scanned `ProjectedExpenses` and `ActualExpenses` for missing data.
 - **Duplicate IDs** – Verified primary key uniqueness.
 - **Logical Consistency** – Checked if `Variance = Projected - Actual`.
 - **Edge Cases** – Searched for negative expenses and invalid month entries.
 - **Temporal Validation** – Verified that all month entries were spelled correctly and could be accurately sorted chronologically for future trend analysis.
    
-## Key Discovery & Resolution
+### Key Discovery & Resolution
 **Issue:** The provided 'Variance' column stores the **absolute** difference ('ABS(Proj - Actual)') rather than the signed difference. 
 
 In FP&A, the sign determines if we're underspending (positive) or overspending (negative). By storing only the absolute value, the dataset effectively removes the ability to distinguish between good performance and bad performance.
 
 **Resolution:** Raw data is preserved (audit trail is critical in finance). All downstream reporting will calculate variance directly as '(ProjectedExpenses - ActualExpenses)', bypassing the flawed column entirely.
 
-## Results Summary:
+### Results Summary:
 Nulls (Projected / Actual):  0 
 Duplicate IDs : 0 
 Negative Expenses: 0 
 Month Formatting:Valid 
 Variance Consistency: ⚠️ Flagged (Absolute vs. Signed)
 
-## Tools & Next Steps
+### Tools & Next Steps
 Stack: PostgreSQL  
 Next: Proceed to Phase 3 – Executive Summary (Company-wide KPIs, total variance, and variance percentage).
+
+##Phase 3: Executive Summary: 
+Aggregated company-wide KPIs, department performance rankings, and monthly spend trends. Calculated corrected variance and identified performance status for all dimensions. Used ROLLUP to generate an automatic grand total row alongside monthly and department breakdowns.
+
 
 3. EWT and MAT Dashboard
 
