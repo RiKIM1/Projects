@@ -56,7 +56,7 @@ Next: Proceed to Phase 3 – Executive Summary (Company-wide KPIs, total varianc
 Aggregated company-wide KPIs, department performance rankings, and monthly spend trends. Calculated corrected variance and identified performance status for all dimensions. Used ROLLUP to generate an automatic grand total row alongside monthly and department breakdowns.
 
 
-3. EWT and MAT Dashboard
+# 3. EWT and MAT Dashboard
 
 File: EWT and MAT dashboard.xlsx
 
