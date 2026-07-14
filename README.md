@@ -21,6 +21,7 @@ Methodology follows Paul Pignataro's Financial Modeling & Valuation (Wiley Finan
 ## Phase 1 and 2: Data Validation
 
 📌 Project Overview
+
 These are the first and second phases of a financial planning and analysis (FP&A) project designed to showcase data validation, SQL proficiency, and business acumen. 
 
 The objective of these two phases was to **inspect, validate, and profile** the raw financial dataset before performing any analytical reporting. In a real-world finance environment, trusting data blindly leads to bad decisions. This phase ensures that the foundation is solid before building any executive dashboards or variance reports
