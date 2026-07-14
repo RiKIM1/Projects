@@ -10,7 +10,7 @@ Built a full 3-statement financial model (Income Statement, Cash Flow  Statement
 
 Methodology follows Paul Pignataro's Financial Modeling & Valuation (Wiley Finance).
 
-##Key features:
+## Key features:
 - Revenue breakdown by segment (Automotive, Energy Generation, Services)
 - EBITDA/EBIT/EBT margin analysis
 - Working capital and CAPEX modeling
