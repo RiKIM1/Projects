@@ -52,7 +52,7 @@ Variance Consistency: ⚠️ Flagged (Absolute vs. Signed)
 Stack: PostgreSQL  
 Next: Proceed to Phase 3 – Executive Summary (Company-wide KPIs, total variance, and variance percentage).
 
-##Phase 3: Executive Summary: 
+## Phase 3: Executive Summary: 
 Aggregated company-wide KPIs, department performance rankings, and monthly spend trends. Calculated corrected variance and identified performance status for all dimensions. Used ROLLUP to generate an automatic grand total row alongside monthly and department breakdowns.
 
 
