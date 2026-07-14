@@ -2,7 +2,7 @@ Welcome to my project repository. I am a recent graduate from the University of 
 
 
 📁 Project Directory
-## 1. Tesla 3-Statement Financial Model
+# 1. Tesla 3-Statement Financial Model
 
    File: Tesla_3StatementModelDCF.xlsx
    
@@ -16,9 +16,9 @@ Key features:
 - Working capital and CAPEX modeling
 - Forward projections using historical averages, analyst consensus, and key assumptions supported by institution reports (like JPMorgan) and professional investors who are closely monitoring Tesla. 
 
-2. SQL-based FP&A Budget vs. Actual – Data Validation (Phase 1-2)
+# 2. SQL-based FP&A Budget vs. Actual – Data Validation (Phase 1-2)
 
-## 📌 Project Overview
+📌 Project Overview
 These are the first and second phases of a financial planning and analysis (FP&A) project designed to showcase data validation, SQL proficiency, and business acumen. 
 
 The objective of these two phases was to **inspect, validate, and profile** the raw financial dataset before performing any analytical reporting. In a real-world finance environment, trusting data blindly leads to bad decisions. This phase ensures that the foundation is solid before building any executive dashboards or variance reports
