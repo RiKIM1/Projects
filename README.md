@@ -2,7 +2,7 @@ Welcome to my project repository. I am a recent graduate from the University of 
 
 
 📁 Project Directory
-1. Tesla 3-Statement Financial Model
+## 1. Tesla 3-Statement Financial Model
 
    File: Tesla_3StatementModelDCF.xlsx
    
